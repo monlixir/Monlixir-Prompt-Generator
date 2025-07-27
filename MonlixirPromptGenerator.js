@@ -25,7 +25,9 @@ export default function MonlixirPromptGenerator() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'sans-serif', maxWidth: '600px', margin: 'auto' }}>
-      <h2>Monlixir Prompt Generator</h2>
+      <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px', color: '#C7A26A' }}>
+        Monlixir Prompt Generator
+      </h1>
       <div style={{ display: 'grid', gap: '10px' }}>
         <input name="archetype" placeholder="Fashion Archetype" onChange={handleChange} />
         <input name="silhouette" placeholder="Silhouette" onChange={handleChange} />
